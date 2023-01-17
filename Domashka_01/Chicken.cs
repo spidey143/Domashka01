@@ -9,7 +9,6 @@ namespace DZ_01
     public class Chicken: Animal
     {
         public Human Human { get; set; }
-        public List<Chicken> chickens = new List<Chicken>();
-        public Egg Egg { get; set; }
+        public List<Egg> eggs = new List<Egg>();
     }
 }
